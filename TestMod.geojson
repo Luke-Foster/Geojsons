@@ -1,0 +1,141 @@
+{
+  "type": "FeatureCollection",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "EPSG:4326"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": 0,		
+      "properties": {
+        "FID": 100,
+	"Test_Unique": "w",
+        "Test_Non-Unique": "a",
+        "Empty": " ",
+        "Null": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.173828125,
+          62.63376960786813
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 1,
+      "properties": {
+        "FID": 101,
+        "Test_Unique": "x",
+        "Test_Non-Unique": "a",
+        "Empty": " ",
+        "Null": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              65.91796875,
+              64.92354174306496
+            ],
+            [
+              56.51367187499999,
+              61.227957176677876
+            ],
+            [
+              58.00781249999999,
+              57.51582286553883
+            ],
+            [
+              67.236328125,
+              57.61010702068388
+            ],
+            [
+              73.564453125,
+              61.56457388515458
+            ],
+            [
+              65.91796875,
+              64.92354174306496
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2,
+      "properties": {
+        "FID": 102,
+        "Test_Unique": "y",
+        "Test_Non-Unique": "a",
+        "Empty": " ",
+        "Null": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.080078125,
+            59.93300042374631
+          ],
+          [
+            75.146484375,
+            64.99793920061401
+          ],
+          [
+            86.923828125,
+            66.05371622067922
+          ],
+          [
+            88.681640625,
+            59.88893689676585
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3,
+      "properties": {
+        "FID": 103,
+        "Test_Unique": "z",
+        "Test_Non-Unique": "a",
+        "Empty": " ",
+        "Null": null
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              91.14257812499999,
+              60.673178565817715
+            ],
+            [
+              105.64453124999999,
+              60.673178565817715
+            ],
+            [
+              105.64453124999999,
+              65.94647177615738
+            ],
+            [
+              91.14257812499999,
+              65.94647177615738
+            ],
+            [
+              91.14257812499999,
+              60.673178565817715
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}
